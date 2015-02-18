@@ -20,7 +20,7 @@
       'animationOutSpeed': 0,
       'onChange': function (page) {},
       'cache': false,
-      'basePagePath': '//kevinelam.github.io/web/'
+      'basePagePath': ''
     };
     this.settings = $.extend({}, this.defaults, options);
 
