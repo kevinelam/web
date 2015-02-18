@@ -1,0 +1,37 @@
+body {font: 16px/24px 'Vollkorn', serif; color: #333; background: #EFEFEF; margin: 0 auto; padding: 12px; box-sizing: border-box;}
+body, html {height: 100%;}
+
+#wrapper {box-sizing: border-box; background: #FFFFFA; box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; height: 100%; overflow: auto;}
+#container {max-width: 960px; margin: 0 auto;}
+.info {max-width: 300px; margin: 0 auto; text-align: justify;}
+.lost {max-width: 300px; margin: 0 auto; text-align: center;}
+
+a {color: #333; text-decoration: none;}
+a:hover {color: #222; background-color: #F9DF74; border-bottom: 1px solid #F6CB2D;}
+
+.name {font: 24px/28px 'Unica One', sans-serif; text-transform: uppercase; text-align: center; color: #C31; margin: 40px 0 25px;}
+.name a {color: #C31;}
+.name a:hover {color: #C31; background-color: transparent; border-bottom: none;}
+
+.info a {padding: 0 4px;}
+
+.meta {text-align: center; text-transform: uppercase; font-family: "Courier New", Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .15em; padding: 5px 0 0; margin: 30px auto 0; max-width: 300px; border-top: 1px solid #CFCFCF;}
+.meta a {padding: 0 4px;}
+.meta a:hover {color: #222; background-color: #F9DF74; border-bottom: 1px solid #F6CB2D;}
+.inline-list {list-style: none;}
+.inline-list li {display: inline-block; margin: 0 4px;}
+
+/*hidden contact*/
+#contact {display: none; text-transform: none; text-align: center; font-family: "Courier New", Quicksand, "Helvetica Neue", "Arial", sans-serif; font-size: 11px; letter-spacing: .1em; margin: 0 0 20px;}
+#contact a {padding: 0 4px;}
+
+/*font awesome*/
+.fa-vimeo-square, .fa-home {padding-right: 4px; color: #555}
+.fa-envelope-o {padding-right: 2px; color: #888}
+.fa-copyright {padding-right: 5px; color: #888}
+
+/*page & close*/
+#page_holder {margin: 0 10px;}
+.fa-times {color: #CFCFCF;}
+.close {text-align: right; margin: 0 2px;}
+.close a:hover {color: #888; background-color: transparent; border-bottom: none;}
